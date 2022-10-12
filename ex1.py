@@ -13,4 +13,3 @@ class HighScoreTable:
     def reset(self):
         self.lis.clear()
         self.scores = nlargest(self.__ln__, self.lis)
-
